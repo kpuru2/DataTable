@@ -1,0 +1,5 @@
+CREATE DATABASE DataTable 
+GO
+
+USE DataTable 
+GO
