@@ -1,0 +1,15 @@
+/DataTable/packages
+/DataTable/bin
+/DataTable/obj
+/DataTable.BE/bin
+/DataTable.BE/obj
+/DataTable.BL/bin
+/DataTable.BL/obj
+/DataTable.Core/bin
+/DataTable.Core/obj
+/DataTable.DL/obj
+/DataTable.DL/bin
+/DataTable.Test/bin
+/DataTable.Test/obj
+/packages
+/.vs
