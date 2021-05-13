@@ -13,3 +13,6 @@
 /DataTable.Test/obj
 /packages
 /.vs
+/DataTable.UI/bin
+/DataTable.UI/obj
+/DataTable.UI/packages
