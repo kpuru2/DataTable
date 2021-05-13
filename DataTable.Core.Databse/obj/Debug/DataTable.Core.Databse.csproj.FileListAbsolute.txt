@@ -1,0 +1,8 @@
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\bin\Debug\DataTable.Core.Databse.dll
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\bin\Debug\DataTable.Core.Databse.pdb
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\obj\Debug\DataTable.Core.Databse.dll
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\obj\Debug\DataTable.Core.Databse.pdb
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\obj\Debug\DataTable.Core.Databse.csprojAssemblyReference.cache
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\bin\Debug\SimpleInjector.dll
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\bin\Debug\SimpleInjector.xml
+D:\Puru\DataGrain\DataTable\DataTable.Core.Databse\obj\Debug\DataTable.Core.Databse.csproj.CopyComplete

@@ -200,6 +200,18 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataTable.BE\DataTable.BE.csproj">
+      <Project>{bcf1cda9-77c1-4ed5-8be9-103867f90e94}</Project>
+      <Name>DataTable.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTable.BL\DataTable.BL.csproj">
+      <Project>{5b7fdc71-42f7-4c5c-8c07-030c9603ce64}</Project>
+      <Name>DataTable.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTable.Core\DataTable.Core.csproj">
+      <Project>{2f874243-251b-454c-a1a7-7ec51e306517}</Project>
+      <Name>DataTable.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataTable.Test\DataTable.Test.csproj">
       <Project>{a96337b5-aaff-4567-bbff-78246449152a}</Project>
       <Name>DataTable.Test</Name>
