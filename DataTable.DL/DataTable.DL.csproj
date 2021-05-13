@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataTable.BE\DataTable.BE.csproj" />
+    <ProjectReference Include="..\DataTable.Core\DataTable.Core.csproj" />
+  </ItemGroup>
+
 </Project>
