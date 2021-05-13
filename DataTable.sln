@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTable.DL", "DataTable.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.Test", "DataTable.Test\DataTable.Test.csproj", "{E8589F1B-5B18-4F4E-85DB-F7D1C6CBA9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.UI", "DataTable\DataTable.UI.csproj", "{225E4D63-CE14-44DD-AF0F-DC0E22999F04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.UI", "DataTable.UI\DataTable.UI.csproj", "{225E4D63-CE14-44DD-AF0F-DC0E22999F04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
