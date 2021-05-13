@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.UI", "DataTable.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.Test", "DataTable.Test\DataTable.Test.csproj", "{A96337B5-AAFF-4567-BBFF-78246449152A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.Utilities", "DataTable.Utilities\DataTable.Utilities.csproj", "{D76F85C9-A302-491C-BD70-6EC0611DC395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A96337B5-AAFF-4567-BBFF-78246449152A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96337B5-AAFF-4567-BBFF-78246449152A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96337B5-AAFF-4567-BBFF-78246449152A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76F85C9-A302-491C-BD70-6EC0611DC395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76F85C9-A302-491C-BD70-6EC0611DC395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76F85C9-A302-491C-BD70-6EC0611DC395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76F85C9-A302-491C-BD70-6EC0611DC395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
