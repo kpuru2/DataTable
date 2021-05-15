@@ -13,6 +13,7 @@ namespace DataTable
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            DependencyResolver.DependencyResolverConfig.RegisterResolver();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
