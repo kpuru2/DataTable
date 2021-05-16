@@ -1,4 +1,5 @@
 ﻿using DataTable.Core.IServices;
+using DataTable.DL.Converters;
 using SimpleInjector;
 
 namespace DataTable.DL
@@ -16,6 +17,7 @@ namespace DataTable.DL
         {
             DataTable.Core.Database.ResourceManifest.RegisterDependencies(container);
             container.Register<IDataManager, PaymentManager>();
+            container.Register<IConverter, PaymentConverter>();
         }
     }
 }

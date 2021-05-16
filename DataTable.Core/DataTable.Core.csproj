@@ -45,5 +45,11 @@
     <Compile Include="IServices\ITransactionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataTable.BE\DataTable.BE.csproj">
+      <Project>{BCF1CDA9-77C1-4ED5-8BE9-103867F90E94}</Project>
+      <Name>DataTable.BE</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

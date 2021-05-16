@@ -23,7 +23,7 @@ SELECT
 	P.[Amount],
 	P.[Status],
 	P.[PaidDate],
-	COUNT(1) over () AS TotalCount
+	COUNT(1) over () AS TotalRowsCount
 FROM dbo.[Payments] P JOIN dbo.[Accounts] A ON P.[AccountNumber] = A.[AccountNumber]
 						JOIN dbo.[Vendors] V ON A.[VendorNumber] = V.[VendorNumber]
 WHERE @accountSearch IS NULL OR A.[AccountNumber] IN (@accountSearch)
