@@ -15,7 +15,7 @@ namespace DataTable.DL
         public static void RegisterDependencies(Container container)
         {
             DataTable.Core.Database.ResourceManifest.RegisterDependencies(container);
-            container.Register<IDataManager, DataManager>();
+            container.Register<IDataManager, PaymentManager>();
         }
     }
 }
