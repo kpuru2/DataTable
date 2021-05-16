@@ -3,7 +3,7 @@
     /// <summary>
     /// Payment Converter
     /// </summary>
-    public class PaymentConverter : IConverter
+    public class TransactionConverter : IConverter
     {
 
     }

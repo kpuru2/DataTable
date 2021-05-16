@@ -8,6 +8,9 @@ namespace DataTable.BL
     /// </summary>
     public class TransactionManager : ITransactionManager
     {
+        public TransactionManager()
+        {
 
+        }
     }
 }
