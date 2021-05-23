@@ -1,6 +1,5 @@
-﻿using System;
+﻿using DataTable.BE;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DataTable.Core.IServices
 {
@@ -9,6 +8,15 @@ namespace DataTable.Core.IServices
     /// </summary>
     public interface ITransactionManager
     {
-
+        /// <summary>
+        /// Get Payment Details
+        /// </summary>
+        /// <param name="pageNumber"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="accountSearch"></param>
+        /// <param name="sortColumn"></param>
+        /// <param name="sortOrder"></param>
+        /// <returns></returns>
+        ICollection<PayementDetails> GetPaymentDetails(int pageNumber, int pageSize, string accountSearch, string sortColumn, string sortOrder);
     }
 }
