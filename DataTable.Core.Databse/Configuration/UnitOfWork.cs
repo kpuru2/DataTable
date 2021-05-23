@@ -7,7 +7,7 @@ namespace DataTable.Core.Database.Configuration
     /// This class implments UoW pattern for sharing database context across repositories.
     /// </summary>
     /// <typeparam name="T">Type of Database context object</typeparam>
-    public sealed class UnitOfWork<T> : IUnitOfWork<T>, IDisposable
+    public sealed class UnitOfWork<T> : IUnitOfWork<T>
         where T : IDatabaseContext, new()
     {
         private readonly IDatabaseContextFactory<T> _databaseFactory;
